@@ -1,0 +1,37 @@
+{
+    "dishes": [
+      {
+        "name": "Vegetable rice",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKZLaNyZp1o2KEIdfD50B7ggKp7u0mditjtQ&s",
+        "basic_cost": 10.99,
+        "reviews": {
+          "rating": 4.5
+        }
+      },
+      {
+        "name": "Salad",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEl7DlRjaGTPOhtfbkKfJvYDrmWo1hM2QPg&s",
+        "basic_cost": 8.50,
+        "reviews": {
+          "rating": 4.7
+        }
+      },
+      {
+        "name": "Veg Pizza",
+        "image": "https://i.ytimg.com/vi/0hyCDmSKTgw/hqdefault.jpg",
+        "basic_cost": 12.75,
+        "reviews": {
+          "rating": 4.8
+        }
+      },
+      {
+        "name": "Curd Rice",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSIfwaK6KBqB8Gmksl-H55BIX1T-w2L9zcA&s",
+        "basic_cost": 9.99,
+        "reviews": {
+          "rating": 4.6
+        }
+      }
+    ]
+  }
+  
