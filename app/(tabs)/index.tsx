@@ -19,7 +19,6 @@ const Homepage = () => {
       const data = await response.json();
 
       if (data.status === "OK") {
-        Alert.alert("Connected to server successfully")
         navigation.navigate('SignIn');
       } else {
         Alert.alert('Server Error', 'Something went wrong, please try again later.');

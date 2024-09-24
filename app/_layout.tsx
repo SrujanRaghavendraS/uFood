@@ -40,6 +40,7 @@ export default function RootLayout() {
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       <Stack.Screen name="SignIn" options={{ headerShown: false }}/>
       <Stack.Screen name="SignUp" options={{ headerShown: false }}/>
+      <Stack.Screen name="Items" options={{ headerShown: false }}/>
       <Stack.Screen name="ForgotPassword" options={{ headerShown: false }}/>
       <Stack.Screen name="+not-found" />
     </Stack>

@@ -24,7 +24,8 @@ const SignIn = () => {
       const data2=await response1.json();
       console.log(data2)
       if(data2.msg==="Correct Password"){
-        Alert.alert("Login Successful");
+        Alert.alert("Login Successful","You can customise your food now");
+        navigation.navigate('Items');
       }
       else{
         Alert.alert('Wrong Password');
