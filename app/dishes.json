@@ -1,37 +1,56 @@
 {
-    "dishes": [
-      {
-        "name": "Vegetable rice",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKZLaNyZp1o2KEIdfD50B7ggKp7u0mditjtQ&s",
-        "basic_cost": 10.99,
-        "reviews": {
-          "rating": 4.5
-        }
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Vegetable Rice",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKZLaNyZp1o2KEIdfD50B7ggKp7u0mditjtQ&s",
+      "basic_cost": 10.99,
+      "reviews": {
+        "rating": 3.5
       },
-      {
-        "name": "Salad",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEl7DlRjaGTPOhtfbkKfJvYDrmWo1hM2QPg&s",
-        "basic_cost": 8.50,
-        "reviews": {
-          "rating": 4.7
-        }
+      "components": ["Tomatoes", "Carrot", "Soy Sauce", "Peas"],
+      "component Price Low": [1.50, 2.00, 0.50, 0.75],
+      "component Price medium": [2.00, 3.00, 1.00, 1.50],
+      "components Price High": [2.50, 4.00, 1.50, 2.00]
+    },
+    {
+      "id": 2,
+      "name": "Salad",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEl7DlRjaGTPOhtfbkKfJvYDrmWo1hM2QPg&s",
+      "basic_cost": 8.50,
+      "reviews": {
+        "rating": 4.7
       },
-      {
-        "name": "Veg Pizza",
-        "image": "https://i.ytimg.com/vi/0hyCDmSKTgw/hqdefault.jpg",
-        "basic_cost": 12.75,
-        "reviews": {
-          "rating": 4.8
-        }
+      "components": ["Lettuce", "Tomatoes", "Cucumbers", "Olives"],
+      "component Price Low": [1.00, 1.50, 1.00, 1.25],
+      "component Price medium": [1.50, 2.00, 1.50, 2.00],
+      "components Price High": [2.00, 2.50, 2.00, 2.50]
+    },
+    {
+      "id": 3,
+      "name": "Veg Pizza",
+      "image": "https://i.ytimg.com/vi/0hyCDmSKTgw/hqdefault.jpg",
+      "basic_cost": 12.75,
+      "reviews": {
+        "rating": 4.8
       },
-      {
-        "name": "Curd Rice",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSIfwaK6KBqB8Gmksl-H55BIX1T-w2L9zcA&s",
-        "basic_cost": 9.99,
-        "reviews": {
-          "rating": 4.6
-        }
-      }
-    ]
-  }
-  
+      "components": ["Pizza Base", "Tomato Sauce", "Cheese", "Bell Peppers"],
+      "component Price Low": [2.00, 1.50, 2.00, 1.50],
+      "component Price medium": [2.50, 2.00, 2.50, 2.00],
+      "components Price High": [3.00, 2.50, 3.00, 2.50]
+    },
+    {
+      "id": 4,
+      "name": "Curd Rice",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSIfwaK6KBqB8Gmksl-H55BIX1T-w2L9zcA&s",
+      "basic_cost": 9.99,
+      "reviews": {
+        "rating": 4.6
+      },
+      "components": ["Rice", "Curd", "Salt", "Coriander"],
+      "component Price Low": [1.00, 1.25, 0.10, 0.50],
+      "component Price medium": [1.50, 1.75, 0.20, 0.75],
+      "components Price High": [2.00, 2.25, 0.30, 1.00]
+    }
+  ]
+}
